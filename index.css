@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Nerko+One&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', 'Sans Serif';
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.card{
+    max-width: 360px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 18px;
+    margin: 0 1em;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.card-text {
+    padding: 0px 20px;
+}
+
+.card-text-title,
+.card-text-paragraph{
+    text-align: center;
+}
+
+.card-text-title{
+    padding: 20px 0px;
+    color: hsl(218, 44%, 22%);
+}
+
+.card-text-paragraph{
+    color:  hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    padding: 20px 0;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
